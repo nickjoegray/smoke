@@ -36,12 +36,17 @@ body {
   list-style-type: none;
   display:inline-flex;
   padding-left:440px;
-  padding-top:40px;
+  padding-top:30px;
 }
 
 .one img {
   height:50px;
   width:50px;
+  margin-left:10px;
+}
+
+.one .first {
+  margin-left:-10px;
 }
 
 .two {
