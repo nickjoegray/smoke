@@ -1,0 +1,88 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+  padding-top:0;
+}
+
+.one {
+  background-image:url('file://localhost/Users/nickgray/Desktop/UX/blue/img/redsmoke2.jpg');
+  height:700px;
+}
+
+.one h1 {
+  margin-top:260px;
+  text-align: center;
+  color:white;
+  border-top:3px dotted white;
+  border-bottom:3px dotted white;
+  font-family: Avenir;
+  padding-top:15px;
+  padding-bottom:10px;
+  text-shadow: 0px 1px 10px rgba(150, 150, 150, 1);
+}
+
+.one p {
+  text-align:center;
+  margin-top:105px;
+  color:white;
+  text-shadow: 0px 1px 10px rgba(150, 150, 150, 1);
+}
+
+.one ul {
+  list-style-type: none;
+  display:inline-flex;
+  padding-left:440px;
+  padding-top:40px;
+}
+
+.one img {
+  height:50px;
+  width:50px;
+}
+
+.two {
+  background: #262626;
+  margin-top:-30px;
+  height:150px;
+  margin-bottom:0;
+}
+
+.two .row span a {
+  font-size:40px;
+  margin-left:130px;
+  font-family: Avenir;
+  color:#B81324;
+  text-decoration:none;
+}
+
+.two .row span a:hover {
+  color:red;
+}
+
+.three {
+  margin-bottom:0;
+  padding-top:90px;
+  height:1200px;
+}
+
+.three b {
+  color:#B81324;
+}
+
+.three .row .left img {
+  border-radius:130px;
+  height:175px;
+  width:auto;
+  margin-top:60px;
+  margin-right:25px;
+}
+
+.four {
+  background-color:#FFEFDB;
+  height:1000px;
+  margin-bottom:0;
+}
