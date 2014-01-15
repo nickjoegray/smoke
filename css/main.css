@@ -60,12 +60,13 @@ body {
   font-size:40px;
   margin-left:130px;
   font-family: Avenir;
-  color:#B81324;
+  /*color:#B81324;*/
+  color:#A02422;
   text-decoration:none;
 }
 
 .two .row span a:hover {
-  color:red;
+  color:#B81324;
 }
 
 .three {
