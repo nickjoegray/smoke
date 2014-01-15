@@ -72,8 +72,38 @@ body {
 .three {
   margin-bottom:0;
   padding-top:90px;
-  height:1200px;
+  height:1400px;
   background: #FFFFFF;
+}
+
+.three .container {
+  border:5px dotted #CCCCCC;
+  padding-left: 40px;
+  padding-right:40px;
+  padding-bottom:40px;
+}
+
+.three .container .title-mission {
+  background-color:#B81324;
+  width:260px;height:60px;
+  color:#FFFFFF;
+  text-align:center;
+  margin-left:-75px;
+  margin-bottom:-11px;
+  margin-top:30px;
+  font-family:avenir;
+  font-size:30px;
+  text-shadow: 0px 1px 10px rgba(150, 150, 150, 1);
+
+}
+
+.triangle {
+  -webkit-transform: rotate(90deg);     /* Chrome and other webkit browsers */
+  -moz-transform: rotate(90deg);        /* FF */
+  -o-transform: rotate(90deg);          /* Opera */
+  -ms-transform: rotate(90deg);         /* IE9 */
+  transform: rotate(90deg);
+  margin-left:-75px;
 }
 
 .three b {
@@ -90,7 +120,7 @@ body {
 }
 
 .four {
-  background-color:#FFEFDB;
+  background-color:#FFFFFF;
   height:1000px;
-  margin-bottom:0;
+  /*margin-bottom:0;*/
 }
