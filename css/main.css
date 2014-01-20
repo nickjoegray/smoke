@@ -186,3 +186,7 @@ span.col-lg-4.column-one {
 span.col-lg-4.column-two {
   padding-left: 0;
 }
+
+.six {
+  padding-left:50px;
+}
