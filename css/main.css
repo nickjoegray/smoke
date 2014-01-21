@@ -132,8 +132,14 @@ body {
   margin-top:100px;
 }
 
-#work div.col-lg-7 {
+#work div.col-lg-7:nth-child(1) {
   margin-top:150px;
+  position:absolute;
+}
+
+#work div.col-lg-5.col-lg-offset-7 {
+  position:relative;
+  right:-60px;
 }
 
 .imageWrapper1:hover {
@@ -155,7 +161,7 @@ body {
 }
 
 .imageWrapper1 img {
-  display: block;
+  /*display: block;*/
 }
 
 .imageWrapper1 .cornerLink {
@@ -179,12 +185,17 @@ body {
   opacity: 0.45;
 }
 
-span.col-lg-4.column-one {
+span.col-lg-5.column-one {
   padding-right:0;
 }
 
-span.col-lg-4.column-two {
-  padding-left: 0;
+span.col-lg-5.column-two {
+  padding-right: 0;
+}
+
+div.col-lg-7:nth-child(2) {
+  vertical-align: middle;
+  padding-top:235px;
 }
 
 .six {
