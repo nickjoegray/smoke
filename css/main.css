@@ -50,13 +50,14 @@ body {
 }
 
 .two {
-  width:1707px;
+  width:100%;
   position:fixed;
   z-index:100000;
   background: #262626;
   margin-top:-30px;
   height:110px;
-  margin-bottom:70px;
+  margin-bottom:0;
+  bottom:0;
 }
 
 .two .row span a {
