@@ -303,3 +303,32 @@ div.col-lg-7:nth-child(2) {
   -ms-transform:rotate(90deg); /* IE 9 */
   -webkit-transform:rotate(90deg); /* Safari and Chrome */
 }
+
+@media (min-width: 768px) {
+  .two .row .col-md-4 {
+    bottom:25px;
+  }
+
+  #work div.col-md-7:nth-child(1) {
+    margin-top:150px;
+    position:absolute;
+  }
+
+  #work div.col-md-5.col-md-offset-7 {
+    position:relative;
+    right:-60px;
+  }
+
+  span.col-md-5.column-one {
+    padding-right:0;
+  }
+
+  span.col-md-5.column-two {
+    padding-right: 0;
+  }
+
+  div.col-md-7:nth-child(2) {
+    vertical-align: middle;
+    padding-top:155px;
+  }
+}
