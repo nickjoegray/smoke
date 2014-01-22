@@ -128,7 +128,7 @@ body {
 
 #work {
   background-color:#FFFFFF;
-  height:1500px;
+  height:1600px;
 }
 
 #work .container .title-mission {
@@ -136,13 +136,17 @@ body {
   width:260px;height:60px;
   color:#FFFFFF;
   text-align:center;
-  margin-left:-75px;
+  margin-left:-50px;
   margin-bottom:-11px;
-  margin-top:115px;
+  margin-top:118px;
   font-family:avenir;
   font-size:30px;
   text-shadow: 0px 1px 10px rgba(150, 150, 150, 1);
   padding-top:10px;
+}
+
+#work .container .tri-image {
+  margin-bottom:-70px;
 }
 
 #work .triangle {
@@ -151,12 +155,16 @@ body {
   -o-transform: rotate(90deg);          /* Opera */
   -ms-transform: rotate(90deg);         /* IE9 */
   transform: rotate(90deg);
-  margin-left:-75px;
+  margin-left:-50px;
   margin-top:10px;
 }
 
 #work .featurette {
   margin-bottom:200px;
+}
+
+#work .featurette-heading:nth-child(1) {
+  margin-top:100px;
 }
 
 #work .onemore {
@@ -192,7 +200,7 @@ body {
 }
 
 .imageWrapper1 img {
-  /*display: block;*/
+  width:150px;
 }
 
 .imageWrapper1 .cornerLink {
@@ -226,11 +234,12 @@ span.col-lg-5.column-two {
 
 div.col-lg-7:nth-child(2) {
   vertical-align: middle;
-  padding-top:235px;
+  padding-top:155px;
 }
 
 .six {
   background-color:#FFFFFF;
+  height:2875px;
 }
 
 .six li {
@@ -255,6 +264,41 @@ div.col-lg-7:nth-child(2) {
   font-family:Avenir;
   float:right;
   font-weight:bold;
-  color:#B81324;
-  text-shadow: 1px 1px 7px rgba(150, 151, 150, 0.85);
+  color:#FFF;
+  text-shadow: 1px 1px 7px #B81324;
+}
+
+#resume .container .title-mission {
+  background-color:#B81324;
+  width:260px;height:60px;
+  color:#FFFFFF;
+  text-align:center;
+  margin-left:-50px;
+  margin-bottom:-11px;
+  margin-top:75px;
+  font-family:avenir;
+  font-size:30px;
+  text-shadow: 0px 1px 10px rgba(150, 150, 150, 1);
+  padding-top:0;
+}
+
+#resume .container .tri-image {
+  margin-bottom:-70px;
+}
+
+#resume .triangle {
+  -webkit-transform: rotate(90deg);     /* Chrome and other webkit browsers */
+  -moz-transform: rotate(90deg);        /* FF */
+  -o-transform: rotate(90deg);          /* Opera */
+  -ms-transform: rotate(90deg);         /* IE9 */
+  transform: rotate(90deg);
+  margin-left:-50px;
+  margin-top:-1px;
+}
+
+#resume a .last-image {
+  margin-left:515px;
+  transform:rotate(90deg);
+  -ms-transform:rotate(90deg); /* IE 9 */
+  -webkit-transform:rotate(90deg); /* Safari and Chrome */
 }
