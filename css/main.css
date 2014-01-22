@@ -230,5 +230,31 @@ div.col-lg-7:nth-child(2) {
 }
 
 .six {
-  padding-left:50px;
+  background-color:#FFFFFF;
+}
+
+.six li {
+  color:#B81324;
+}
+
+.six li span {
+  color:#000000;
+}
+
+.six blockquote {
+  background: none repeat scroll 0 0 #FFFFFF;
+  border-left: 1em solid #B81324;
+  font-size: 1.0em;
+  font-style: italic;
+  font-family: Avenir;
+  margin: 0 1em 1.5em;
+  padding: 1.5em 2em;
+}
+
+.six cite {
+  font-family:Avenir;
+  float:right;
+  font-weight:bold;
+  color:#B81324;
+  text-shadow: 1px 1px 7px rgba(150, 151, 150, 0.85);
 }
